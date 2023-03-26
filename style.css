@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --pale-blue:hsl(225, 100%, 94%);
+    --pale-blue-2:hsl(225, 100%, 98%);
+    --medium-blue:hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --bright-blue: hsl(245, 75%, 52%);
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.2;
+    font-size: 16px;
+    text-align: center;
+    background-color: var(--pale-blue);
+    scroll-behavior: smooth;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-bottom: 15px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+img{
+    max-width: 100%;
+}
+
+h4{
+    color: var(--dark-blue);
+}
+
+.bg-image{
+    background-image: url("./images/pattern-background-desktop.svg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -9;
+    position: absolute;
+}
+.container{
+    max-width: 500px;
+    height: 700px;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+
+.order-section{
+    height: 150px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.order-section .order_head{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+.order-section p{
+    color: var(--medium-blue);
+    text-align: center;
+}
+.pricing-section{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: var(--pale-blue-2);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pricing-section .pricing-plan{
+    text-align: left;
+}
+
+.pricing-section button{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color: var(--bright-blue);
+    font-weight: 600;
+}
+
+.action-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-1{
+    background-color: var(--bright-blue);
+    color: #fff;
+    border-radius: 8px;
+    width: 370px;
+    height:50px;
+    font-weight: bold;
+    margin: auto;
+    box-shadow: hsl(224, 23%, 55%) 0px 4px 12px;
+}
+
+.btn-2{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    width: 370px;
+    height:50px;
+    color:grey;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
